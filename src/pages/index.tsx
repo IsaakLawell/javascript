@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Algorithme</title>
+        <title>Raine's space</title>
         <link rel="icon" href="/logo.png" />
       </Head>
       <main className="h-screen">
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <div className="absolute h-1/2 w-screen top-1/2 left-0 bg-gradient-to-t from-blue-500 via-pink-400 to-white z-[-1] "></div>
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 mx-auto pt-9">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Site algo <span className="text-purple-800">mauvais</span>
+            Bienvenue <span className="text-purple-800">à vous</span>
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
               href="https://algo-mauvais.vercel.app/"
               target="_blank"
             >
-              <h3 className="text-2xl font-bold">Le site d'algo →</h3>
+              <h3 className="text-2xl font-bold">Le d'algo mauvais →</h3>
               <div className="text-lg">
                 Site d'entrainement - Puissance 4, Sudoku et résolution et
                 commande vocal.
