@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <main className="h-screen">
         <div className="absolute h-1/2 w-screen top-0 left-0 bg-gradient-to-b from-blue-500 via-pink-400 to-white z-[-1]"></div>
         <div className="absolute h-1/2 w-screen top-1/2 left-0 bg-gradient-to-t from-blue-500 via-pink-400 to-white z-[-1] "></div>
-        <div className="container flex flex-col items-center justify-center gap-12 px-4 mx-auto pt-11">
+        <div className="container flex flex-col items-center justify-center gap-12 px-4 mx-auto pt-20">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             Bienvenue <span className="text-purple-800">à vous</span>
           </h1>
